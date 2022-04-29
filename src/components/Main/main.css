@@ -1,0 +1,53 @@
+.main {
+    position: relative;
+}
+
+.archa {
+    position: absolute;
+    top: -294px;
+    z-index: -1;
+}
+
+.bulut {
+    position: absolute;
+    right: 0px;
+    top: 800px;
+
+}
+.trustedBy {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.trustedBy .carousel {
+    position: absolute;
+    left: 22%;
+    display: flex;
+    width: 1016px;
+    align-items: center;
+    justify-content: space-between;
+}
+.trustedBy .carousel img {
+    width: 156px;
+}
+.trustedBy .carousel .right_button{
+    width: 53px;
+    height: 53px;
+}
+.trustedBy img {
+    height: 170px;
+}
+
+.trustedBy .line2{
+    width: 100%;
+}
+
+.flag {
+    position: absolute;
+    left: 50px;
+    top: 1680px;
+}

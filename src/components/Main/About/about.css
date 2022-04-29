@@ -1,0 +1,68 @@
+.about {
+  padding-bottom: 160px;
+  position: relative;
+}
+
+.trak {
+    position: absolute;
+    right: 180px;
+    bottom: 50px;
+    z-index: 2;
+}
+.about1 {
+    position: absolute;
+    right: 143px;
+    top: -50px;
+}
+.about2 {
+    position: absolute;
+    right: -50px;
+    z-index: -1;
+    top: -50px;
+}
+.about h2 {
+  width: 579px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 54px;
+
+  text-transform: uppercase;
+
+  color: #000000;
+  margin-bottom: 35px;
+}
+
+.about p {
+  width: 484px;
+  margin-bottom: 35px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #000000;
+}
+.about__links {
+  display: flex;
+}
+.about__links a {
+  width: 184px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 26.5px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #037b35;
+}
+.about__links a:hover {
+  border: 2px solid #037b35;
+}

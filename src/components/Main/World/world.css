@@ -1,0 +1,108 @@
+.world {
+  width: 540px;
+  height: 608px;
+  margin-left: auto;
+  margin-top: 63px;
+  padding-top: 60px;
+  padding-right: 40px;
+}
+
+.world h2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 35px;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #037b35;
+  margin-bottom: 8px;
+}
+.world p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+
+  color: #1e252b;
+  margin-bottom: 27px;
+}
+
+.world__ask {
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+
+.world__ask .top {
+  position: absolute;
+  left: 25px;
+  width: 450px;
+  height: 1px;
+  background-color: #1e252b2e;
+}
+.world__ask .bottom {
+  position: absolute;
+  left: 25px;
+  bottom: 0;
+  width: 450px;
+  height: 1px;
+  background-color: #1e252b2e;
+}
+.world__ask .right {
+  position: absolute;
+  right: 0px;
+  top: 25px;
+  width: 1px;
+  height: 250px;
+  background-color: #1e252b2e;
+}
+.world__ask .left {
+  position: absolute;
+  left: 0px;
+  top: 25px;
+  width: 1px;
+  height: 250px;
+  background-color: #1e252b2e;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px 0 40px;
+}
+.question h4 {
+  width: 240px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-transform: uppercase;
+
+  color: #037b35;
+}
+.question:nth-child(2n) h4{
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-transform: uppercase;
+
+  color: #fcbd17;
+}
+.question img {
+  border: 1px solid transparent;
+}
+.question img:hover {
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 300ms;
+}

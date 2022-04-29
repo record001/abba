@@ -1,0 +1,130 @@
+.header {
+  background-image: url("../../images/hero_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 232px;
+  padding-top: 36px;
+
+
+}
+
+.header__body {
+  position: relative;
+
+}
+.hero {
+    position: absolute;
+}
+
+.hero1 {
+  top: 25%;
+  right: -25%;
+}
+.hero2 {
+  top: 33%;
+  right: -10%;
+}
+
+.hero3 {
+  top: 52%;
+  right: 0%;
+}
+.hero4 {
+  top: 56%;
+  right: 2%;
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  margin-left: 283px;
+  width: 346px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__link {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.75px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+
+.nav__call {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.nav__call img {
+  margin-right: 12px;
+}
+.nav__numbers {
+  display: flex;
+  flex-direction: column;
+}
+.nav__numbers a {
+  font-family: "Zona Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 15px;
+
+  color: #037b35;
+}
+
+.header__title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 67.3724px;
+  /* line-height: 83px; */
+
+  color: #ffffff;
+
+  margin-top: 132px;
+  margin-bottom: 26px;
+  /* border: 1px solid #037b35; */
+}
+
+.header__text {
+  width: 487px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: rgba(255, 255, 255, 0.55);
+}
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 156px;
+  height: 53px;
+  background-color: #fcbd17;
+  border-radius: 26.5px;
+  margin-top: 15px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.header__button img {
+    margin-left: 8px;
+}
