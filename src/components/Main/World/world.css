@@ -30,11 +30,22 @@
   color: #1e252b;
   margin-bottom: 27px;
 }
+.world .answer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
 
+  color: #1e252b;
+  margin-left: 50px;
+  margin-bottom: 0;
+}
 .world__ask {
   width: 500px;
   height: 300px;
   position: relative;
+  overflow-y: scroll;
 }
 
 .world__ask .top {
@@ -50,7 +61,7 @@
   bottom: 0;
   width: 450px;
   height: 1px;
-  background-color: #1e252b2e;
+  /* background-color: #1e252b2e; */
 }
 .world__ask .right {
   position: absolute;
@@ -87,7 +98,7 @@
 
   color: #037b35;
 }
-.question:nth-child(2n) h4{
+.question:nth-child(2n) h4 {
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 800;

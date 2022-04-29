@@ -1,11 +1,11 @@
 import "./production.css";
 import ProductionCard from "./ProductionCard";
-import pro1 from "../../../images/pro1.svg";
-import pro2 from "../../../images/pro2.svg";
-import pro3 from "../../../images/pro3.svg";
-import pro4 from "../../../images/pro4.svg";
-import pro5 from "../../../images/pro5.svg";
-import pro6 from "../../../images/pro6.svg";
+
+/*
+products: "https://alibaraka.pythonanywhere.com/api/products/"
+questions: "https://alibaraka.pythonanywhere.com/api/questions/"
+stories: "https://alibaraka.pythonanywhere.com/api/stories/"
+*/
 
 export default function Production() {
   return (
@@ -17,36 +17,9 @@ export default function Production() {
       </p>
 
       <div className="production__wrapper">
-        <ProductionCard
-          imgSrc={pro1}
-          title="Asosiy Plyonka Turlari"
-          text = "Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint."
-        />
-        <ProductionCard
-          imgSrc={pro2}
-          title="Asosiy Zajim turlari"
-          text = "Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint."
-        />
-        <ProductionCard
-          imgSrc={pro3}
-          title="Tomchilab sug’orish tizimi"
-          text = "Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint."
-        />
-        <ProductionCard
-          imgSrc={pro4}
-          title="ISSIQXONANING sovutish TIZIMI"
-          text = "Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint."
-        />
-        <ProductionCard
-          imgSrc={pro5}
-          title="ISSIQXONANING ISITISH TIZIMI"
-          text = "Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint."
-        />
-        <ProductionCard
-          imgSrc={pro6}
-          title="QO’shimcha aksessuarlar"
-          text = "Et magni et ea unde tempore. Corrupti quia adipisci qui dicta sint."
-        />
+        
+       <ProductionCard />
+        
       </div>
     </section>
   );

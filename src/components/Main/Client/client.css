@@ -92,6 +92,7 @@
   width: 460px;
   height: 617px;
   background-color: #ffffff;
+  overflow-y: scroll;
 }
 .client__wrapper .right h2 {
   font-family: "Gilroy";
